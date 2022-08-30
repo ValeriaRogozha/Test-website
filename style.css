@@ -11,9 +11,10 @@ body {
   color: red;
 }
 #imgreview {
-    border-radius: 10px;
+        border-radius: 10px;
     background-color: #4e4c4c;
-    background-position: center center;
     border-color: transparent;
     border-style: solid;
+    align-items: center;
+    margin-left: 500px;
 }
