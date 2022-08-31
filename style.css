@@ -1,20 +1,77 @@
 body {
-  font-family: "Inter",sans-serif;
-  background: #d3dcd5;
-  padding: 0 24px;
-  margin: 0;
-  height: 100vh;
-  color: dark grey;
-  
-}
-#review {
-  color: red;
-}
-#imgreview {
-        border-radius: 10px;
+    font-family: "Inter",sans-serif;
+    background: milk;
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;
+    color: dark rgb(112, 108, 108);
+    
+  }
+  #review {
+    color: rgb(29, 247, 47);
+    margin-left: 600px;
+  }
+  #imgreview {
+    border-radius: 10px;
     background-color: #4e4c4c;
     border-color: transparent;
     border-style: solid;
     align-items: center;
+    margin-left: 530px;
+  }
+  .column {
+    position: absolute;
+    width: 250px;
+    background-color: rgb(29, 247, 47);
+
+  }
+    .left {
+        left:900px;
+    }
+.middle{
+    left:100px;
+}
+.right {
+    left:530px;
+}
+
+h1 {
+    align-items: center;  
     margin-left: 500px;
+    font-family: "Lemon Tuesday",sans-serif;
+}
+.cover {
+    align-items: center;  
+    margin-left: 100px;
+}
+.image-container {
+    position: relative;
+}
+.image-container h1 {
+    position: absolute;
+    top: 0;
+    
+}
+.icon {
+    position: absolute;
+    width: 150px;
+    
+    
+    
+}
+.first {
+    
+    left: 100px;
+    
+}
+.second {
+    left: 300px;
+}
+h2 {
+    align-items: center;  
+    margin-left: 600px;
+    color: rgb(29, 247, 47)
+}
+.info {
+padding-top: 600px;
 }
