@@ -4,12 +4,13 @@ body {
     padding: 0 24px;
     margin: 0;
     height: 100vh;
-    color: dark rgb(112, 108, 108);
+    color: slategrey;
     
   }
   #review {
     color: rgb(29, 247, 47);
-    margin-left: 600px;
+    align-items: center;
+    margin-top: 100px;
   }
   #imgreview {
     border-radius: 10px;
@@ -21,19 +22,42 @@ body {
   }
   .column {
     position: absolute;
-    width: 250px;
+    width: 390px;
     background-color: rgb(29, 247, 47);
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+    
 
   }
     .left {
         left:900px;
+        text-align: center;
     }
+    
+    .image-container p {
+        position: relative;
+        top: 0;
+    }
+    
 .middle{
     left:100px;
+    text-align: center;
 }
+
+    .image-container p {
+        position: relative;
+        top: 0;}
 .right {
     left:530px;
+    width: 330px;
+    text-align: center;
 }
+.image-container p {
+    position: relative;
+    top: 0;}
 
 h1 {
     align-items: center;  
@@ -68,10 +92,35 @@ h1 {
     left: 300px;
 }
 h2 {
-    align-items: center;  
-    margin-left: 600px;
-    color: rgb(29, 247, 47)
+    text-align: center;  
+   
+    color: rgb(29, 247, 47);
+
+    
+
 }
 .info {
-padding-top: 600px;
+padding-top: 700px;
+}
+#imginfo {
+    background-color: #4e4c4c;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 150px;
+    
+}
+#infotext {
+    background-color:white;
+    border-color: transparent;
+    border-style: solid;
+    float:right;
+    margin-right: 250px;
+    margin-top: 80px;
+
+    
+}
+.contact {
+    border-bottom: 4px slategrey solid;
+    padding: 5%;
+    
 }
